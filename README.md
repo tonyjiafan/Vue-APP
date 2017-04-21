@@ -11,6 +11,12 @@ vue-yoman
 - ES6
 - Vue-impression
 
+## 预览
+<img src="https://github.com/tonyjiafan/Vue-APP/blob/master/app_images/app1.png" />
+<img src="https://github.com/tonyjiafan/Vue-APP/blob/master/app_images/app.png" />
+<img src="https://github.com/tonyjiafan/Vue-APP/blob/master/app_images/app2.png" />
+
+
 ## 执行
 - npm run watch
 - npm run build
