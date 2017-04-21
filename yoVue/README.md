@@ -13,7 +13,7 @@ vue-yoman
 
 ## 执行
 - npm run watch
-- npm run bulid
+- npm run build
 - npm run start
 - http://localhost:9008/
 
