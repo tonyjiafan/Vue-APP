@@ -61,12 +61,20 @@ body {
 
 .go_movie{
   text-align: center;
-  display: block;
-  background: darken($brand-primary, 8%);
+  background: darken($brand-primary, 10%);
   color: #fff;
   padding: 10px 20px;
   margin: 10px auto;
+  border-radius: 3px;
   text-decoration: none;
+}
+.go_movie_1{
+  @extend .go_movie;
+  display: inline-block;
+}
+.go_movie_2{
+  @extend .go_movie;
+  display: block;
 }
 .content_main{
   min-height: 150px;

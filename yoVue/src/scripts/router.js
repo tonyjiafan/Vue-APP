@@ -2,6 +2,7 @@ import Vue from 'vue';
 import VueRouter from 'vue-router';
 import Index from './views/index';
 import Search from './views/search';
+import Teams from './views/teams';
 
 Vue.use(VueRouter);
 
@@ -14,6 +15,10 @@ const routes = [{
     name: 'search',
     path: '/search',
     component: Search,
+}, {
+    name: 'teams',
+    path: '/teams',
+    component: Teams,
 }];
 
 export default new VueRouter({
